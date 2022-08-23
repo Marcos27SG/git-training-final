@@ -1,0 +1,23 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tictactoe.js",
+  "scripts": {
+    "play": "node src/tictactoe.js",
+    "test": "mocha tests/TicTacToeUtilsTests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gist.github.com/fdcfdf214cb66d7a1637.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gist.github.com/fdcfdf214cb66d7a1637"
+  },
+  "homepage": "https://gist.github.com/fdcfdf214cb66d7a1637",
+  "devDependencies": {
+    "mocha": "^10.0.0"
+  }
+}
