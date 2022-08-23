@@ -36,5 +36,13 @@ describe("compare tictactoe board size", function () {
         let currentBoardSize = board.board.length;
     assert.equal(expectedBoardSize, currentBoardSize);
   });
+
+  it(" still works", function () {
+    var ticTacToeUtils = new tictactoeUtils.TicTacToeUtils();
+    var board = ticTacToeUtils.buildBoard(2);
+        var expectedBoardSize = 2;
+        let currentBoardSize = board.board.length;
+    assert.equal(expectedBoardSize, currentBoardSize);
+  });
 });
 
