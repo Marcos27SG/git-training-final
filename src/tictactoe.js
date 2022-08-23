@@ -310,4 +310,4 @@ var TicTacToe = function(readline) {
 };
 
 ticTacToe = new TicTacToe(readline)
-ticTacToe.start(['human', 'ai']);
+//ticTacToe.start(['human', 'ai']);
